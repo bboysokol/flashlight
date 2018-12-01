@@ -11,7 +11,7 @@ namespace Flashlight
             FlashLight flashLight = new FlashLight();
             for (;;)
             {
-                Log.Info("\n1. Turn on flashlight \n2. Add new battery\n3. Remove battery\n4. Put new light bulb\n5. Remove light bulb\n6. Exit\n ");
+                Log.Info("\n1. Turn on/off flashlight \n2. Add new battery\n3. Remove battery\n4. Put new light bulb\n5. Remove light bulb\n6. Exit\n ");
 
                 int.TryParse(Console.ReadLine(), out int menuPick);
                 switch (menuPick)
